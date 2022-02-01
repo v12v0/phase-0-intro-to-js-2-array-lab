@@ -34,7 +34,7 @@ var cats = [ //is assigned an initial value of ["Milo", "Otis", "Garfield"]
     ]
     return newcatlist
  }
- function removeFirstCat(name){
+ function removeFirstCat(name){ //removes the first cat from the cats array and returns a new array, leaving the cats array unchanged
     var newcatlist2 = [
         ...cats.slice(-2)
     ]
